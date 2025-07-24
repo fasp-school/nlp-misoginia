@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -49,80 +48,80 @@
 <body>
 
     <header>
-        [cite_start]<h1>Guia para Anotação de Texto Misógino [cite: 1]</h1>
+        <h1>Guia para Anotação de Texto Misógino</h1>
     </header>
 
     <main>
         <section id="introducao">
             <h2>Introdução</h2>
-            [cite_start]<p>Este guia fornece detalhes de como deve ser realizado o processo de “data labeling” para identificação de texto misógino. [cite: 2]</p>
+            <p>Este guia fornece detalhes de como deve ser realizado o processo de “data labeling” para identificação de texto misógino.</p>
         </section>
 
         <section id="fluxograma">
             <h2>Fluxograma de Identificação</h2>
-            [cite_start]<p>A imagem a seguir apresenta o fluxograma para a identificação de um texto misógino. [cite: 3]</p>
+            <p>A imagem a seguir apresenta o fluxograma para a identificação de um texto misógino.</p>
             <img src="https://raw.githubusercontent.com/fasp-school/nlp-misoginia/main/fluxograma_misoginia.png" alt="Fluxograma para identificação de texto misógino">
         </section>
 
         <section id="ferramenta-label-studio">
             <h2>Processo de Classificação com Label Studio</h2>
-            [cite_start]<p>Será utilizada a ferramenta Label Studio para o processo de classificação. [cite: 4] [cite_start]Ao iniciar o processo, será apresentado o comentário a ser classificado e algumas perguntas que irão ajudar no processo. [cite: 5]</p>
+            <p>Será utilizada a ferramenta Label Studio para o processo de classificação. Ao iniciar o processo, será apresentado o comentário a ser classificado e algumas perguntas que irão ajudar no processo.</p>
             <img src="https://raw.githubusercontent.com/fasp-school/nlp-misoginia/main/label_studio_exemplo.png" alt="Exemplo de classificação na ferramenta Label Studio">
-            
+
             <div class="container">
-                <p><strong>1. [cite_start]O texto é ofensivo, crítico ou depreciativo?</strong> [cite: 5]</p>
+                <p><strong>1. O texto é ofensivo, crítico ou depreciativo?</strong></p>
                 <ul>
-                    [cite_start]<li>Todas as mensagens já irão se apresentar como "Tóxico", pois foram previamente filtradas. [cite: 6]</li>
+                    <li>Todas as mensagens já irão se apresentar como "Tóxico", pois foram previamente filtradas.</li>
                 </ul>
 
-                <p><strong>2. [cite_start]O alvo é uma mulher ou o feminino em geral?</strong> [cite: 5]</p>
+                <p><strong>2. O alvo é uma mulher ou o feminino em geral?</strong></p>
                 <ul>
-                    [cite_start]<li>Nessa questão, identificamos se o texto é direcionado a uma mulher ou ao coletivo feminino. [cite: 8]</li>
-                    [cite_start]<li>Quando o texto não tem direcionamento ao feminino, não é considerado misógino, sendo classificado apenas como tóxico. [cite: 9]</li>
+                    <li>Nessa questão, identificamos se o texto é direcionado a uma mulher ou ao coletivo feminino.</li>
+                    <li>Quando o texto não tem direcionamento ao feminino, não é considerado misógino, sendo classificado apenas como tóxico.</li>
                 </ul>
 
-                <p><strong>3. [cite_start]A ofensa é baseada em estereótipo de gênero?</strong> [cite: 5]</p>
+                <p><strong>3. A ofensa é baseada em estereótipo de gênero?</strong></p>
             </div>
         </section>
-        
+
         <section id="definicoes">
             <h2>Definições Chave</h2>
 
-            [cite_start]<h3>O que é um comentário tóxico? [cite: 10]</h3>
-            [cite_start]<p>Um comentário tóxico é qualquer forma de comunicação que seja rude, desrespeitosa ou que crie um ambiente negativo e hostil. [cite: 11] [cite_start]Geralmente, ele visa provocar, intimidar, ofender ou assediar outras pessoas, minando a possibilidade de uma conversa construtiva e saudável. [cite: 12] [cite_start]A toxicidade pode se manifestar de várias maneiras, incluindo insultos diretos, discurso de ódio, ameaças, sarcasmo malicioso, "trollagem" (provocação deliberada) e a disseminação de informações falsas com o intuito de prejudicar. [cite: 13]</p>
-            
-            [cite_start]<h4>Exemplos de comentários tóxicos: [cite: 14]</h4>
+            <h3>O que é um comentário tóxico?</h3>
+            <p>Um comentário tóxico é qualquer forma de comunicação que seja rude, desrespeitosa ou que crie um ambiente negativo e hostil. Geralmente, ele visa provocar, intimidar, ofender ou assediar outras pessoas, minando a possibilidade de uma conversa construtiva e saudável. A toxicidade pode se manifestar de várias maneiras, incluindo insultos diretos, discurso de ódio, ameaças, sarcasmo malicioso, "trollagem" (provocação deliberada) e a disseminação de informações falsas com o intuito de prejudicar.</p>
+
+            <h4>Exemplos de comentários tóxicos:</h4>
             <ul>
-                [cite_start]<li>"Você é uma completa idiota e não sabe do que está falando." [cite: 15]</li>
-                [cite_start]<li>"Vai se foder, seu lixo." [cite: 16]</li>
-                [cite_start]<li>"Espero que você sofra um acidente." [cite: 17]</li>
+                <li>"Você é uma completa idiota e não sabe do que está falando."</li>
+                <li>"Vai se foder, seu lixo."</li>
+                <li>"Espero que você sofra um acidente."</li>
             </ul>
 
-            [cite_start]<h4>Exemplos de comentários não tóxicos: [cite: 18]</h4>
+            <h4>Exemplos de comentários não tóxicos:</h4>
             <ul>
-                [cite_start]<li>"Eu discordo veementemente da sua análise sobre a economia." [cite: 19]</li>
-                [cite_start]<li>"A atuação neste filme foi decepcionante." [cite: 20]</li>
-                [cite_start]<li>"A política de cancelamento da empresa é injusta com os consumidores." [cite: 21]</li>
+                <li>"Eu discordo veementemente da sua análise sobre a economia."</li>
+                <li>"A atuação neste filme foi decepcionante."</li>
+                <li>"A política de cancelamento da empresa é injusta com os consumidores."</li>
             </ul>
 
-            [cite_start]<h3>O que é um comentário misógino? [cite: 22]</h3>
-            [cite_start]<p>Um texto misógino é aquele que expressa ódio, desprezo ou preconceito contra mulheres pelo simples fato de serem mulheres. [cite: 23] [cite_start]Ele se manifesta ao desqualificar, humilhar, objetificar ou promover estereótipos negativos, seja atacando uma mulher individualmente ou generalizando para todo o grupo feminino. [cite: 24]</p>
+            <h3>O que é um comentário misógino?</h3>
+            <p>Um texto misógino é aquele que expressa ódio, desprezo ou preconceito contra mulheres pelo simples fato de serem mulheres. Ele se manifesta ao desqualificar, humilhar, objetificar ou promover estereótipos negativos, seja atacando uma mulher individualmente ou generalizando para todo o grupo feminino.</p>
         </section>
-        
+
         <section id="categorias-misoginia">
-            [cite_start]<h2>Categorias de Comportamento Misógino em Texto [cite: 25]</h2>
-            [cite_start]<p>A misoginia textual pode ser estruturada em categorias de comportamento, que revelam a intenção subjacente do discurso. [cite: 26] São elas:</p>
+            <h2>Categorias de Comportamento Misógino em Texto</h2>
+            <p>A misoginia textual pode ser estruturada em categorias de comportamento, que revelam a intenção subjacente do discurso. São elas:</p>
             <ul>
-                [cite_start]<li><strong>Estereótipo e Objetificação:</strong> Envolve a generalização excessiva da imagem da mulher, abrangendo personalidade, preferências e habilidades, para se adequar a um padrão muito restrito. [cite: 27] [cite_start]Isso inclui a redução da mulher a um objeto ou parte do corpo, desumanizando-a. [cite: 28]</li>
-                [cite_start]<li><strong>Dominação:</strong> Refere-se à intenção de demonstrar que os homens são superiores às mulheres em um contexto de desigualdade de gênero. [cite: 29]</li>
-                [cite_start]<li><strong>Descrédito:</strong> Significa a falta de respeito para com as mulheres, podendo incluir o uso de termos pejorativos para minar sua credibilidade ou valor. [cite: 30]</li>
-                [cite_start]<li><strong>Assédio Sexual e Ameaça de Violência:</strong> Inclui ações para assediar mulheres relacionadas a promessas sexuais inapropriadas em troca de favores sexuais, bem como a intenção de afirmar fisicamente o poder sobre as mulheres por meio de ameaças violentas. [cite: 31]</li>
-                [cite_start]<li><strong>Derailing (Desvio de Assunto):</strong> Comportamento que confirma o abuso contra mulheres ao rejeitar a responsabilidade masculina ou tentar interromper conversas para redirecionar as discussões das mulheres para tópicos mais confortáveis para os homens. [cite: 32]</li>
-                [cite_start]<li><strong>Atribuição de Culpa/Gaslighting:</strong> Culpar a mulher por um erro ou comportamento produzido pelo indivíduo masculino, ou fazê-la duvidar de sua própria sanidade e percepção. [cite: 33]</li>
-                [cite_start]<li><strong>Silenciamento/Interrupção:</strong> Impedir que mulheres verbalizem opiniões e pontos de vista. [cite: 34]</li>
+                <li><strong>Estereótipo e Objetificação:</strong> Envolve a generalização excessiva da imagem da mulher, abrangendo personalidade, preferências e habilidades, para se adequar a um padrão muito restrito. Isso inclui a redução da mulher a um objeto ou parte do corpo, desumanizando-a.</li>
+                <li><strong>Dominação:</strong> Refere-se à intenção de demonstrar que os homens são superiores às mulheres em um contexto de desigualdade de gênero.</li>
+                <li><strong>Descrédito:</strong> Significa a falta de respeito para com as mulheres, podendo incluir o uso de termos pejorativos para minar sua credibilidade ou valor.</li>
+                <li><strong>Assédio Sexual e Ameaça de Violência:</strong> Inclui ações para assediar mulheres relacionadas a promessas sexuais inapropriadas em troca de favores sexuais, bem como a intenção de afirmar fisicamente o poder sobre as mulheres por meio de ameaças violentas.</li>
+                <li><strong>Derailing (Desvio de Assunto):</strong> Comportamento que confirma o abuso contra mulheres ao rejeitar a responsabilidade masculina ou tentar interromper conversas para redirecionar as discussões das mulheres para tópicos mais confortáveis para os homens.</li>
+                <li><strong>Atribuição de Culpa/Gaslighting:</strong> Culpar a mulher por um erro ou comportamento produzido pelo indivíduo masculino, ou fazê-la duvidar de sua própria sanidade e percepção.</li>
+                <li><strong>Silenciamento/Interrupção:</strong> Impedir que mulheres verbalizem opiniões e pontos de vista.</li>
             </ul>
 
-            [cite_start]<h3>Tabela 2: Categorias de Comportamento Misógino e Exemplos [cite: 35]</h3>
+            <h3>Tabela 2: Categorias de Comportamento Misógino e Exemplos</h3>
             <table>
                 <thead>
                     <tr>
@@ -134,53 +133,53 @@
                 <tbody>
                     <tr>
                         <td>Estereótipo e Objetificação</td>
-                        [cite_start]<td>Reduz a mulher a um objeto ou padrão restrito, desumanizando-a ou reforçando papéis limitados. [cite: 36]</td>
-                        [cite_start]<td>"Mulher é muito emotiva para cargos de liderança." [cite: 36]</td>
+                        <td>Reduz a mulher a um objeto ou padrão restrito, desumanizando-a ou reforçando papéis limitados.</td>
+                        <td>"Mulher é muito emotiva para cargos de liderança."</td>
                     </tr>
                     <tr>
                         <td>Dominação</td>
-                        [cite_start]<td>Demonstra superioridade masculina ou busca controlar o espaço feminino. [cite: 36]</td>
-                        [cite_start]<td>"Lugar de mulher é cuidando da casa e da família, não na política." [cite: 36]</td>
+                        <td>Demonstra superioridade masculina ou busca controlar o espaço feminino.</td>
+                        <td>"Lugar de mulher é cuidando da casa e da família, não na política."</td>
                     </tr>
                     <tr>
                         <td>Descrédito</td>
-                        [cite_start]<td>Mina a credibilidade, valor ou sanidade da mulher, incluindo o uso de termos pejorativos. [cite: 36]</td>
-                        <td>"Você está louca." [cite_start]"Isso é coisa da sua cabeça." [cite: 36]</td>
+                        <td>Mina a credibilidade, valor ou sanidade da mulher, incluindo o uso de termos pejorativos.</td>
+                        <td>"Você está louca." "Isso é coisa da sua cabeça."</td>
                     </tr>
                     <tr>
                         <td>Assédio Sexual e Ameaça de Violência</td>
-                        [cite_start]<td>Ações para assediar sexualmente ou ameaçar fisicamente mulheres. [cite: 36]</td>
-                        [cite_start]<td>"Você tem 24h para retirar seu conteúdo sobre mim. Depois disso processo ou bala. Você escolhe." [cite: 36]</td>
+                        <td>Ações para assediar sexualmente ou ameaçar fisicamente mulheres.</td>
+                        <td>"Você tem 24h para retirar seu conteúdo sobre mim. Depois disso processo ou bala. Você escolhe."</td>
                     </tr>
                     <tr>
                         <td>Derailing (Desvio de Assunto)</td>
-                        [cite_start]<td>Rejeita a responsabilidade masculina ou desvia a conversa de tópicos sensíveis para mulheres. [cite: 36]</td>
-                        [cite_start]<td>"Não é machismo, é só brincadeira, você é muito sensível." [cite: 36]</td>
+                        <td>Rejeita a responsabilidade masculina ou desvia a conversa de tópicos sensíveis para mulheres.</td>
+                        <td>"Não é machismo, é só brincadeira, você é muito sensível."</td>
                     </tr>
                     <tr>
                         <td>Atribuição de Culpa/Gaslighting</td>
-                        [cite_start]<td>Culpa a mulher por ações alheias ou a faz duvidar de sua realidade. [cite: 36]</td>
-                        [cite_start]<td>"Eu fiz por sua culpa." [cite: 36]</td>
+                        <td>Culpa a mulher por ações alheias ou a faz duvidar de sua realidade.</td>
+                        <td>"Eu fiz por sua culpa."</td>
                     </tr>
                     <tr>
                         <td>Silenciamento/Interrupção</td>
-                        [cite_start]<td>Impede a expressão ou participação feminina. [cite: 36]</td>
-                        [cite_start]<td>"Cala a boca e me escuta, você não entende nada." [cite: 36]</td>
+                        <td>Impede a expressão ou participação feminina.</td>
+                        <td>"Cala a boca e me escuta, você não entende nada."</td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
         <section id="distincao-conceitos">
-            [cite_start]<h2>Distinção Crucial entre Misoginia, Sexismo e Machismo [cite: 37]</h2>
-            [cite_start]<p>Embora frequentemente interligados, misoginia, sexismo e machismo são conceitos distintos que representam facetas da desigualdade de gênero. [cite: 38]</p>
+            <h2>Distinção entre Misoginia, Sexismo e Machismo</h2>
+            <p>Embora frequentemente interligados, misoginia, sexismo e machismo são conceitos distintos que representam facetas da desigualdade de gênero.</p>
             <ul>
-                [cite_start]<li><strong>Sexismo:</strong> Refere-se à crença de que homens e mulheres possuem características, funções e oportunidades diferentes baseadas no sexo biológico, criando uma oposição binária e hierárquica. [cite: 39] [cite_start]É uma crença que estabelece papéis e expectativas rígidas. [cite: 40] [cite_start]O sexismo é uma forma de discriminação de gênero, e a degradação das mulheres é geral e abstrata. [cite: 41]</li>
-                [cite_start]<li><strong>Machismo:</strong> É a crença, transmitida por gerações, de que os homens são superiores às mulheres e que estas devem ser submissas. [cite: 42] [cite_start]Atua de forma mais branda e sutil, naturalizando a subordinação feminina. [cite: 43] [cite_start]O machismo é um sistema que perpetua a desigualdade de gênero. [cite: 44]</li>
-                [cite_start]<li><strong>Misoginia (em contraste):</strong> Caracteriza-se por um comportamento agressivo, de aversão concreta e ódio às mulheres. [cite: 45] [cite_start]Manifesta-se em agressões e desprezo por aquelas que desafiam espaços tradicionalmente masculinos. [cite: 46] [cite_start]É a manifestação comportamental e emocional mais intensa do preconceito de gênero. [cite: 47]</li>
+                <li><strong>Sexismo:</strong> Refere-se à crença de que homens e mulheres possuem características, funções e oportunidades diferentes baseadas no sexo biológico, criando uma oposição binária e hierárquica. É uma crença que estabelece papéis e expectativas rígidas. O sexismo é uma forma de discriminação de gênero, e a degradação das mulheres é geral e abstrata.</li>
+                <li><strong>Machismo:</strong> É a crença, transmitida por gerações, de que os homens são superiores às mulheres e que estas devem ser submissas. Atua de forma mais branda e sutil, naturalizando a subordinação feminina. O machismo é um sistema que perpetua a desigualdade de gênero.</li>
+                <li><strong>Misoginia (em contraste):</strong> Caracteriza-se por um comportamento agressivo, de aversão concreta e ódio às mulheres. Manifesta-se em agressões e desprezo por aquelas que desafiam espaços tradicionalmente masculinos. É a manifestação comportamental e emocional mais intensa do preconceito de gênero.</li>
             </ul>
-            
-            [cite_start]<h3>Tabela 1: Comparativo de Conceitos [cite: 48]</h3>
+
+            <h3>Tabela 1: Comparativo de Conceitos</h3>
             <table>
                 <thead>
                     <tr>
@@ -194,24 +193,24 @@
                 <tbody>
                     <tr>
                         <td>Misoginia</td>
-                        [cite_start]<td>Ódio, aversão, desprezo ou preconceito contra mulheres e meninas. [cite: 49]</td>
-                        [cite_start]<td>Comportamento/sentimento agressivo e concreto. [cite: 49]</td>
-                        [cite_start]<td>Desqualificação, intimidação, gaslighting, violência verbal, psicológica, assédio, feminicídio. [cite: 49]</td>
-                        [cite_start]<td>"Você está louca, eu fiz por sua culpa." [cite: 49]</td>
+                        <td>Ódio, aversão, desprezo ou preconceito contra mulheres e meninas.</td>
+                        <td>Comportamento/sentimento agressivo e concreto.</td>
+                        <td>Desqualificação, intimidação, gaslighting, violência verbal, psicológica, assédio, feminicídio.</td>
+                        <td>"Você está louca, eu fiz por sua culpa."</td>
                     </tr>
                     <tr>
                         <td>Sexismo</td>
-                        [cite_start]<td>Crença em características, funções e oportunidades diferentes para homens e mulheres baseadas no sexo biológico. [cite: 49]</td>
-                        [cite_start]<td>Crença/ideologia; oposição binária e hierárquica. [cite: 49]</td>
-                        [cite_start]<td>Atribuição de papéis de gênero rígidos, discriminação de gênero. [cite: 49]</td>
-                        [cite_start]<td>"Lugar de mulher é cuidando da casa e da família, não na política." [cite: 49]</td>
+                        <td>Crença em características, funções e oportunidades diferentes para homens e mulheres baseadas no sexo biológico.</td>
+                        <td>Crença/ideologia; oposição binária e hierárquica.</td>
+                        <td>Atribuição de papéis de gênero rígidos, discriminação de gênero.</td>
+                        <td>"Lugar de mulher é cuidando da casa e da família, não na política."</td>
                     </tr>
                     <tr>
                         <td>Machismo</td>
-                        [cite_start]<td>Crença na superioridade masculina e na submissão feminina, transmitida por gerações. [cite: 49]</td>
-                        [cite_start]<td>Sistema de crenças; atua de forma mais branda/sutil. [cite: 49]</td>
-                        [cite_start]<td>Naturalização da subordinação feminina, piadas preconceituosas. [cite: 49]</td>
-                        [cite_start]<td>"Homem não chora." [cite: 49]</td>
+                        <td>Crença na superioridade masculina e na submissão feminina, transmitida por gerações.</td>
+                        <td>Sistema de crenças; atua de forma mais branda/sutil.</td>
+                        <td>Naturalização da subordinação feminina, piadas preconceituosas.</td>
+                        <td>"Homem não chora."</td>
                     </tr>
                 </tbody>
             </table>
@@ -219,4 +218,3 @@
     </main>
 </body>
 </html>
-```
